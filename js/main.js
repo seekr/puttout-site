@@ -40,6 +40,8 @@ jQuery(document).ready(function($){
 		transitionLayer.addClass('closing');
 		setTimeout(function(){
 			modalWindow.removeClass('visible');
+			vimeoWrap = $('#flui-vid');
+			vimeoWrap.html(vimeoWrap.html());
 		}, 1400)
 		transitionBackground.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
 			transitionLayer.removeClass('closing opening visible');

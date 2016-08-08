@@ -87,16 +87,39 @@
 	</div>
 	<!-- .cd-transition-layer -->
 
-	<div class="cd-modal">
-		<div class="modal-content">
-			<div id="flui-vid">
-				<iframe src="https://player.vimeo.com/video/99123888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="cd-modal">
+	<div class="hero is-fullheight" style="background-color:rgba(255,255,255,.7);">
+		<div class="hero-body">
+			<div class="container" id="flui-vid">
+				<style>
+					.embed-container {
+						position: relative;
+						padding-bottom: 56.25%;
+						height: 0;
+						overflow: hidden;
+						max-width: 100%;
+					}
+					
+					.embed-container iframe,
+					.embed-container object,
+					.embed-container embed {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+					}
+				</style>
+				<div class='embed-container'>
+					<iframe src='https://player.vimeo.com/video/177880740' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				</div>
 			</div>
 		</div>
-		<!-- .modal-content -->
-
-		<a href="#0" class="modal-close">Close</a>
 	</div>
+	<!-- .modal-content -->
+
+	<a href="#0" class="modal-close">Close</a>
+</div>
 	<!-- .cd-modal -->
 
 	<script src="js/jquery-2.1.4.js"></script>
@@ -104,11 +127,11 @@
 	<!-- Resource jQuery -->
 	<script src="js/jq.fitvids.js"></script>
 	<script>
-  $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $("#flui-vid").fitVids();
-  });
-</script>
+	$(document).ready(function(){
+		// Target your .container, .wrapper, .post, etc.
+		$("#").fitVids();
+	});
+	</script>
 </body>
 
 </html>
