@@ -90,9 +90,8 @@ Main Content
   text-align: center;
 }
 .cd-main-content svg {
-  position: absolute;
+  display: block;
   width: 100%;
-  top: 10%;
 }
 
 /* -------------------------------- 
