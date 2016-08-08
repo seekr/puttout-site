@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 		
 		var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 1600;
 		setTimeout(function(){
-			transitionLayer.removeClass('visible');
+			transitionLayer.removeClass('visible opening');
 		}, delay);
 		setTimeout(function(){
 			modalWindow.addClass('visible');
@@ -37,7 +37,7 @@ jQuery(document).ready(function($){
 	modalWindow.on('click', '.modal-close', function(event){
 		event.preventDefault();
 		transitionLayer.addClass('visible');
-		transitionLayer.addClass('closing');
+		transitionLayer.addClass('opening');
 		setTimeout(function(){
 			modalWindow.removeClass('visible');
 			vimeoWrap = $('#flui-vid');
