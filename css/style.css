@@ -103,8 +103,8 @@ Modal window
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #402f44 url(../img/modal-bg.jpg) no-repeat center center;
-  background-size: cover;
+  background: #227b33 url(../img/grass.jpg);
+  background-size: initial;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;

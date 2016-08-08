@@ -23,12 +23,14 @@ jQuery(document).ready(function($){
 	modalTrigger.on('click', function(event){	
 		event.preventDefault();
 		transitionLayer.addClass('visible opening');
-		modalWindow.addClass('visible');
+		
 		var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 1600;
 		setTimeout(function(){
-			
 			transitionLayer.removeClass('visible');
 		}, delay);
+		setTimeout(function(){
+			modalWindow.addClass('visible');
+		}, 1200)
 	});
 
 	//close modal window
@@ -36,7 +38,9 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		transitionLayer.addClass('visible');
 		transitionLayer.addClass('closing');
-		modalWindow.removeClass('visible');
+		setTimeout(function(){
+			modalWindow.removeClass('visible');
+		}, 1400)
 		transitionBackground.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
 			transitionLayer.removeClass('closing opening visible');
 			transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
