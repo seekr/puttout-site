@@ -23,15 +23,18 @@ jQuery(document).ready(function($){
 	modalTrigger.on('click', function(event){	
 		event.preventDefault();
 		transitionLayer.addClass('visible opening');
-		var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 1500;
+		modalWindow.addClass('visible');
+		var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 1600;
 		setTimeout(function(){
-			modalWindow.addClass('visible');
+			
+			transitionLayer.removeClass('visible');
 		}, delay);
 	});
 
 	//close modal window
 	modalWindow.on('click', '.modal-close', function(event){
 		event.preventDefault();
+		transitionLayer.addClass('visible');
 		transitionLayer.addClass('closing');
 		modalWindow.removeClass('visible');
 		transitionBackground.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
