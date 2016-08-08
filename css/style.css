@@ -89,6 +89,11 @@ Main Content
   vertical-align: middle;
   text-align: center;
 }
+.cd-main-content svg {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+}
 
 /* -------------------------------- 
 
