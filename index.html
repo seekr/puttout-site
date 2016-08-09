@@ -61,7 +61,7 @@
 								<p class="subtitle"> </p>
 								<div class="content">
 									<!-- Content -->
-									<a href="#0" class="cd-btn cd-modal-trigger">Learn more</a>
+									<a href="#0" id="play-button" class="cd-btn cd-modal-trigger">Learn more</a>
 								</div>
 							</article>
 						</div>
@@ -112,7 +112,7 @@
 					}
 				</style>
 				<div class='embed-container'>
-					<iframe src='https://player.vimeo.com/video/177880740' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					<iframe id="video" src='https://player.vimeo.com/video/177880740' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -126,12 +126,18 @@
 	<script src="js/jquery-2.1.4.js"></script>
 	<script src="js/main.js"></script>
 	<!-- Resource jQuery -->
-	<script src="js/jq.fitvids.js"></script>
+	<script src="https://player.vimeo.com/api/player.js"></script>
 	<script>
-	$(document).ready(function(){
-		// Target your .container, .wrapper, .post, etc.
-		$("#").fitVids();
-	});
+		var iframe = document.querySelector('iframe');
+		var player = new Vimeo.Player(iframe);
+
+		player.on('play', function() {
+			console.log('played the video!');
+		});
+
+		player.getVideoTitle().then(function(title) {
+			console.log('title:', title);
+		});
 	</script>
 </body>
 
