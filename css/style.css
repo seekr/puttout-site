@@ -330,3 +330,12 @@ Transition Layer
     transform: translateY(-50%) translateX(-1%);
   }
 }
+
+/* -------------------------------- 
+
+custom
+
+-------------------------------- */
+svg#logo {
+  width: 400px;
+}
