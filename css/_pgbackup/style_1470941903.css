@@ -531,15 +531,6 @@ h1, h2, h3, h4, h5, h6
 
 header section {background-color: rgba(0,50,0,.4) }
 
-footer.page-footer
-{
-    margin-top: -20px;
-    padding-top: 20px;
-    background-color: #333;
-}
-
-
-
 @media only screen and ( max-width: 600px ){
     body { font-size: 1.1em; }
     h3 { font-size:1.3em; }

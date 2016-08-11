@@ -3276,6 +3276,7 @@ ul li
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
+
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover
 {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
@@ -3622,7 +3623,6 @@ footer.page-footer
     padding-top: 20px;
     background-color: #ee6e73;
 }
-
 
 footer.page-footer .footer-copyright
 {
