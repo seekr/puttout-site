@@ -13,7 +13,7 @@ Primary style
 
 body
 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Source Sans Pro", sans-serif;
     line-height: 1.6em;
     font-weight: 300;
@@ -552,7 +552,7 @@ footer.page-footer
 
 /*-- iphone 4 --*/
 @media only screen and ( max-height: 600px ){
-    body { font-size:1.1em; }
+    body { font-size:1.2em; line-height: 1.2em; }
     h3 { font-size:1.3em; }
     header svg {
         width:100%;
