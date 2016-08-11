@@ -394,10 +394,6 @@ svg#logo
     width: 400px;
 }
 
-.buttons {
-    margin-bottom:50px; position: absolute; bottom: 15%;
-}
-
 nav
 {
     background-color: transparent;
@@ -431,15 +427,12 @@ header section {background-color: rgba(0,50,0,.4) }
 }
 
 /*-- iphone 4 --*/
-@media only screen and ( max-height: 600px ){
+@media only screen and ( max-height: 500px ){
     body { font-size:1.1em; }
     h3 { font-size:1.3em; }
     header svg {
         width:100%;
         margin-left:0;
-    }
-    .buttons {
-        position: static;bottom:none;
     }
 }
 @media only screen and ( max-height: 600px ) and (orientation:landscape) {
