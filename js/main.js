@@ -1,5 +1,6 @@
 jQuery(document).ready(function($){
 
+      $('.parallax').parallax();
 
 	//cache some jQuery objects
 	var modalTrigger = $('.cd-modal-trigger'),
