@@ -442,11 +442,6 @@ header section {background-color: rgba(0,50,0,.4) }
     .buttons {
         position: static;bottom:none;
     }
-    svg#logo
-    {
-        transform: translateX(0) scale(1);
-        margin-bottom: 0;
-    }
 }
 @media only screen and ( max-height: 600px ) and (orientation:landscape) {
   /* Styles for Landscape screen */
