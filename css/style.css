@@ -575,3 +575,13 @@ footer.page-footer
         margin-left:0;
     }
 }
+
+@media only screen and ( max-height: 800px ) {
+    svg#logo
+    {
+        margin-bottom: 20px;
+    }
+    .buttons {
+    margin-bottom:20px; position: absolute; bottom: 7%;
+}
+}
