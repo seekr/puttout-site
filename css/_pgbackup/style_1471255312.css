@@ -122,7 +122,7 @@ Modal window
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 19;
+    z-index: 2;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -134,7 +134,6 @@ Modal window
     -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
     transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
-
 
 .cd-modal .modal-content
 {
@@ -261,6 +260,7 @@ Transition Layer
     visibility: hidden;
     overflow: hidden;
 }
+
 
 .cd-transition-layer .bg-layer
 {
