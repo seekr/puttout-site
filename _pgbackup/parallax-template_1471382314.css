@@ -27,11 +27,12 @@ p
 
 .parallax-container
 {
-    min-height: 80vh;
+    min-height: 60vh;
     line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
 }
+
 
 .parallax-container .section
 {
@@ -74,9 +75,3 @@ footer.page-footer
     margin: 0;
 }
 
-.parallax img {
-  left: 75%;
-  bottom: -50px;
-  min-width: 150%;
-  min-height: 150%;
-}
