@@ -1,4 +1,7 @@
+
+
 /* Custom Stylesheet */
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -6,52 +9,186 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+html
+{
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.87);
 }
 
-p {
-  line-height: 2rem;
+h1, h2, h3, h4, h5
+{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
 }
 
-.button-collapse {
-  color: #26a69a;
+h6
+{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+h5.white-text
+{
+    font-size: 1.2rem;
+    color: rgba(255,255,255,.5) !important;
 }
-  .parallax-container .section {
+
+.btn, .btn-large, .btn-flat
+{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.btn-large
+{
+    height: 54px;
+    line-height: 56px;
+    font-size: 1.2rem;
+}
+
+[class^="icon-"], [class*=" icon-"]
+{
+    font-size: 1.8rem;
+    line-height: 56px;
+    margin-right: 5px;
+}
+
+.container #logo {
+    margin-top: 25%;
+}
+
+p
+{
+    line-height: 1.6rem;
+}
+
+.button-collapse
+{
+    color: #26a69a;
+}
+
+.parallax-container
+{
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section
+{
     width: 100%;
-  }
+}
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
+/*@media only screen and (max-width : 992px)
+{
+    .parallax-container .section
+    {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section
+    {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px)
+{
+    #index-banner .section
+    {
+        top: 0;
+    }
+}*/
+
+.icon-block
+{
+    padding: 0 15px;
+}
+
+.icon-block .material-icons
+{
+    font-size: inherit;
+}
+
+footer.page-footer
+{
+    margin: 0;
+}
+
+#index-banner svg
+{
+    width: 50%;
+    height: 150px;
+    min-width: 300px;
+}
+
+nav .brand-logo
+{
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.black-card
+{
+    background-color: rgba(15, 62, 36, 0.9);
+}
+
+.black-card a i
+{
+    color: #FFF;
+}
+
+.semitrans {
+    background-color: rgba(0,0,0,.2);
+}
+
+.story p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+#label-lgs {
     position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
     top: 0;
-  }
+    right:0;
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
+
+@media only screen and (min-width : 600px)
+{
+    #index-banner
+    {
+        margin: 0;
+    }
 }
 
-footer.page-footer {
-  margin: 0;
+@media only screen and (max-width: 600px) {
+    .parallax img
+    {
+        max-width: 580px;
+        bottom: -20%;
+    }
+
+    nav .brand-logo
+    {
+        left: -25px;
+        -webkit-transform: translateX(-15%) translateY(-10%) scale(.5);
+        transform: translateX(-15%) translateY(-10%) scale(.5);
+    }
+
+    #intro {
+        height: 200px;
+    }
+    #label-lgs {
+        transform: scale(.7) translateX(25%) translateY(-25%);
+    }
 }
+
