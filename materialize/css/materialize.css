@@ -3232,10 +3232,11 @@ ul
 
 a
 {
-    color: #039be5;
+    color: #ffeb3b;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
+
 
 .valign-wrapper {
   display: -webkit-flex;
@@ -3501,7 +3502,6 @@ video.responsive-video
   -webkit-filter: blur(2px);
   		  filter: blur(2px);
 }
-
 
 .pin-top, .pin-bottom
 {
