@@ -211,5 +211,8 @@ nav .brand-logo
         left: 0;
         position: relative;
     }
+    .page-footer {
+        font-size: 1.2rem;
+    }
 }
 
