@@ -3,8 +3,8 @@
 html
 {
     background: url(../img/martin-puttout-2.jpg);
-        background-position: 0;
-        background-size: cover;
+    background-position: 0;
+    background-size: cover;
 }
 
 body
@@ -14,7 +14,6 @@ body
     background: url(../img/martin-puttout-2.jpg) 0 0 no-repeat;
     background-size: cover;
 }
-
 
 h2
 {
@@ -61,44 +60,17 @@ ul#nav li a
     margin: 0 20px 0 0;
 }
 
-#header, #intro, #second, #third, #fifth
-{
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 #intro
 {
     color: white;
-    height: 300px;
     margin: 0 auto;
-    padding: 0;
+    padding-top: 15%;
     text-align: right;
 }
-
-#second
-{
-    color: white;
-    min-height: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 0;
-    text-align: right;
-}
-
 
 .shadow
 {
     box-shadow: 0px 5px 10px rgba(0,0,0,.4);
-}
-
-#third
-{
-    color: white;
-    height: 30%;
-    padding: 100px 0 0 0;
 }
 
 #fifth
@@ -153,3 +125,4 @@ ul#nav li a
     margin: 10px 0 0 0;
     float: left;
 }
+

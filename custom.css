@@ -32,12 +32,6 @@ h6
     line-height: 1.1;
 }
 
-h5.white-text
-{
-    font-size: 1.2rem;
-    color: rgba(255,255,255,.5) !important;
-}
-
 .btn, .btn-large, .btn-flat
 {
     font-family: 'Work Sans', sans-serif;
@@ -59,8 +53,9 @@ h5.white-text
     margin-right: 5px;
 }
 
-.container #logo {
-    margin-top: 25%;
+.container #logo
+{
+    margin-top: 20%;
 }
 
 p
@@ -146,21 +141,39 @@ nav .brand-logo
     color: #FFF;
 }
 
-.semitrans {
-    background-color: rgba(0,0,0,.2);
+.socmedia a
+{
+    color: #FFF;
 }
 
-.story p {
+.semitrans
+{
+    background-color: rgba(0,0,0,.3);
+}
+
+.story p
+{
     font-size: 1.2rem;
     line-height: 1.6rem;
 }
 
-#label-lgs {
-    position: absolute;
-    top: 0;
-    right:0;
+.story .card-panel p
+{
+    color: #fff;
 }
 
+.card-panel h5
+{
+    color: #FFEF00;
+}
+
+
+#label-lgs
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 @media only screen and (min-width : 600px)
 {
@@ -170,24 +183,25 @@ nav .brand-logo
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)
+{
     .parallax img
     {
         max-width: 580px;
         bottom: -20%;
     }
-
     nav .brand-logo
     {
         left: -25px;
         -webkit-transform: translateX(-15%) translateY(-10%) scale(.5);
         transform: translateX(-15%) translateY(-10%) scale(.5);
     }
-
-    #intro {
-        height: 200px;
+    #intro
+    {
+        padding-top: 30%;
     }
-    #label-lgs {
+    #label-lgs
+    {
         transform: scale(.7) translateX(25%) translateY(-25%);
     }
 }
