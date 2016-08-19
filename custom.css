@@ -179,11 +179,19 @@ nav .brand-logo
     right: 0;
 }
 
+.socmedia span
+{
+    margin-right: 5px;
+}
+
 @media only screen and (min-width : 600px)
 {
     #index-banner
     {
         margin: 0;
+    }
+    .container .row {
+            margin: 60px auto;
     }
 }
 
@@ -218,8 +226,12 @@ nav .brand-logo
     }
 }
 
-.socmedia span
-{
-    margin-right: 5px;
+@media only screen and (max-width: 740px) and (orientation : landscape) {
+    #intro {
+        padding-top: 5%;
+        }
+            .container .row {
+            margin: 10px auto;
+    }
 }
 
