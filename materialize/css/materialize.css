@@ -3232,10 +3232,11 @@ ul
 
 a
 {
-    color: #ffeb3b;
+    color: #FFEF00;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
+
 
 .valign-wrapper {
   display: -webkit-flex;
@@ -3323,6 +3324,8 @@ ul li
 blockquote
 {
     margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #ee6e73;
 }
 
 i
@@ -3491,15 +3494,13 @@ video.responsive-video
   display: none;
   position: absolute;
   left: 50%;
-  bottom: -50%;
+  bottom: 0;
   min-width: 100%;
   min-height: 100%;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  -webkit-filter: blur(2px);
-  		  filter: blur(2px);
 }
 
 .pin-top, .pin-bottom
@@ -9156,10 +9157,9 @@ nav ul a
     font-size: 1rem;
     color: #fff;
     display: block;
-    padding: 0 10px;
+    padding: 0 15px;
     cursor: pointer;
 }
-
 
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating
 {
