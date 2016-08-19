@@ -1,7 +1,14 @@
 (function($){
   $(function(){
 
-            $(document).ready(function(){
+        $(document).ready(function(){
+            
+            $("img").unveil(200, function() {
+              $(this).load(function() {
+                this.style.opacity = 1;
+              });
+            });
+
             $('#nav').localScroll(800);
             //.parallax(xPosition, speedFactor, outerHeight) options:
             //xPosition - Horizontal position of the element

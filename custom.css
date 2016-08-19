@@ -56,6 +56,11 @@ img.materialboxed
     margin: 20px 0;
 }
 
+img {
+  opacity: 0;
+  transition: opacity .3s ease-in;
+} 
+
 [class^="icon-"], [class*=" icon-"]
 {
     font-size: 2.5rem;
@@ -185,7 +190,7 @@ nav .brand-logo
 }
 
 #render {
-    margin-left:-8%;    
+    margin-left::;%;    
 }
 #render img {
     width: 150%;
