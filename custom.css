@@ -184,6 +184,13 @@ nav .brand-logo
     margin-right: 5px;
 }
 
+#render {
+    margin-left:-8%;    
+}
+#render img {
+    width: 150%;
+}
+
 @media only screen and (min-width : 600px)
 {
     #index-banner
@@ -193,6 +200,7 @@ nav .brand-logo
     .container .row {
             margin: 60px auto;
     }
+
 }
 
 @media only screen and (max-width: 600px)
@@ -208,7 +216,7 @@ nav .brand-logo
     }
     #label-lgs
     {
-        transform: scale(.7) translateX(25%) translateY(-25%);
+        transform: scale(.7) translateX(21%) translateY(-25%);
     }
     nav .brand-logo
     {
@@ -223,6 +231,12 @@ nav .brand-logo
     .page-footer
     {
         font-size: 1.2rem;
+    }
+    #render img {
+    width: 100%;
+    }
+    #render {
+        margin-left:0%;    
     }
 }
 
