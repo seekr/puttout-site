@@ -6,12 +6,6 @@
         <meta name="p:domain_verify" content="ee331da22b7d1b0e8ed2646cbe61070e" />
         <title>PuttOut</title>
         <!-- CSS  -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Work+Sans:400" rel="stylesheet">
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="fonts/iconfont.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-        <link href="custom.css" type="text/css" rel="stylesheet" media="screen,projection" />
     </head>
     <body>
         <nav class="black"> 
@@ -80,7 +74,7 @@
                 <div class="col socmedia l4 pull-l8 s12 offset-s0 push-s0 pull-s0 m12">
                     <a href="https://www.facebook.com/puttoutgolf"><span class="icon-facebook-with-circle"></span></a> 
                     <a href="https://twitter.com/puttoutgolf"><span class="icon-twitter-with-circle"></span></a> 
-                    <a href="https://www.youtube.com/channel/UC2nC50uPyfeWdP8hEy3obGw"><span class="icon-youtube-with-circle"></span></a>
+                    <a href="http://www.youtube.com/c/PuttOutGolf"><span class="icon-youtube-with-circle"></span></a>
                     <a href="https://pinterest.com/puttoutgolf/"><span class="icon-pinterest-with-circle"></span></a>
                     <a href="https://www.instagram.com/puttoutgolf/"><span class="icon-instagram-with-circle"></span></a> 
                 </div>
@@ -103,7 +97,8 @@
                         <h5>
         Pressure Putt trainer</h5>
                         <p>
-        The key to great putting is practise.</p>
+    Hole more putts.</p>
+                        <p>The key to great putting is practice.</p>
                         <p>PuttOut is a scientifically shaped target which rejects bad putts and returns good ones.</p>
                         <p>Each successful putt is returned the same distance it would have gone past the hole if it had missed
                         - great feedback for getting the pace just right.</p>
@@ -126,11 +121,13 @@
                     <div class="card-panel semitrans left-align">
                         <h5>
         Hole pressure putts</h5>
-                        <p>Build putt repetition into your practice routine to improve your putting and increase condidence. </p>
+                        <p>Build putt repetition into your practice routine to improve your putting and increase confidence.</p>
                         <p>Take the perfect putt challenge; click the disc to open the micro target, the ball must hold to win.</p>
                         <p>PuttOut is a quality product made from chunky rubber and translucent plastic.</p>
-                        <p>It is designed to be folded to fit into your golf bag. Practice anytime, anywhere; on carpet or green.</p>
-                        <p>Get used to holing pressure putts.</p>
+                        <p>Designed to fold and to fit into your golf bag.</p>
+                        <p>Practice anytime, anywhere; on carpet or a putting green. </p>
+                        <p>
+        Get used to holing pressure putts.</p>
                     </div>
                 </div>
             </div>
@@ -161,7 +158,9 @@
                     <div class="col s12 green l5 m6"> 
                         <h5 class="white-text">London Golf Show </h5> 
                         <p class="grey-text text-lighten-4">Come visit us at the <a href="http://londongolfshow.com/">London Golf Show</a> and try PuttOut first hand!</p>
-                        <img src="http://londongolfshow.com/wp-content/uploads/2016/03/golf-show-logo.png" width="200px" alt="London Golf Show logo" />
+                        <a href="http://londongolfshow.com/">
+                            <img src="http://londongolfshow.com/wp-content/uploads/2016/03/golf-show-logo.png" width="200px" alt="London Golf Show logo" />
+                        </a>
                     </div>                     
                     <div class="col s12 l2 m2 offset-l5 offset-m4"> 
                         <ul> 
@@ -249,6 +248,27 @@
                 </svg>
             </a>
         </div>
+        <noscript id="deferred-styles">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Work+Sans:400" rel="stylesheet">
+            <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <link href="fonts/iconfont.css" rel="stylesheet">
+            <link href="css/style.css" rel="stylesheet" type="text/css" />
+            <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+            <link href="custom.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        </noscript>
+        <script>
+        var loadDeferredStyles = function() {
+            var addStylesNode = document.getElementById("deferred-styles");
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+        else window.addEventListener('load', loadDeferredStyles);
+        </script>
         <!--#fifth-->
         <script type="text/javascript" src="assets/js/jquery.min.js"></script>
         <script src="materialize/js/materialize.js"></script>
