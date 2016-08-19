@@ -61,6 +61,11 @@ img {
   transition: opacity .3s ease-in;
 } 
 
+noscript img {
+  opacity: 1;
+  transition: opacity .3s ease-in;
+} 
+
 [class^="icon-"], [class*=" icon-"]
 {
     font-size: 2.5rem;
