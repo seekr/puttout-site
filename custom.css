@@ -183,6 +183,10 @@ nav .brand-logo
     color: #FFEF00;
 }
 
+.card-panel.green i.left {
+    margin:0;
+    font-size: 2rem;
+}
 
 #label-lgs
 {
@@ -204,6 +208,10 @@ nav .brand-logo
 #render img
 {
     width: 150%;
+}
+
+footer .row {
+    margin:0;
 }
 
 @media only screen and (min-width : 600px)
