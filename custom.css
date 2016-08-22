@@ -56,15 +56,17 @@ img.materialboxed
     margin: 20px 0;
 }
 
-img {
-  opacity: 0;
-  transition: opacity .3s ease-in;
-} 
+img
+{
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
 
-noscript img {
-  opacity: 1;
-  transition: opacity .3s ease-in;
-} 
+noscript img
+{
+    opacity: 1;
+    transition: opacity .3s ease-in;
+}
 
 [class^="icon-"], [class*=" icon-"]
 {
@@ -194,10 +196,13 @@ nav .brand-logo
     margin-right: 5px;
 }
 
-#render {
-    margin-left::;%;    
+#render
+{
+    margin-left: :;
 }
-#render img {
+
+#render img
+{
     width: 150%;
 }
 
@@ -207,10 +212,10 @@ nav .brand-logo
     {
         margin: 0;
     }
-    .container .row {
-            margin: 60px auto;
+    .container .row
+    {
+        margin: 60px auto;
     }
-
 }
 
 @media only screen and (max-width: 600px)
@@ -242,20 +247,25 @@ nav .brand-logo
     {
         font-size: 1.2rem;
     }
-    #render img {
-    width: 100%;
+    #render img
+    {
+        width: 100%;
     }
-    #render {
-        margin-left:0%;    
+    #render
+    {
+        margin-left: 0%;
     }
 }
 
-@media only screen and (max-width: 740px) and (orientation : landscape) {
-    #intro {
+@media only screen and (max-width: 740px) and (orientation : landscape)
+{
+    #intro
+    {
         padding-top: 5%;
-        }
-            .container .row {
-            margin: 10px auto;
+    }
+    .container .row
+    {
+        margin: 10px auto;
     }
 }
 
