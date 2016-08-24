@@ -183,7 +183,6 @@ nav .brand-logo
     color: #FFEF00;
 }
 
-
 .btn i.left
 {
     margin: 0;
@@ -228,10 +227,14 @@ footer .row
     {
         margin: 0;
     }
+@media only screen and (min-width : 600px)
+{
     .container .row
     {
         margin: 40px auto;
     }
+}
+
 }
 
 @media only screen and (max-width: 600px)
@@ -243,7 +246,7 @@ footer .row
     }
     #intro
     {
-        padding-top: 20%;
+        padding-top: 10%;
     }
     #label-lgs
     {
