@@ -221,6 +221,10 @@ footer .row
     max-height: 90%;
 }
 
+#deal, #quote {
+    opacity: 0;
+}
+
 @media only screen and (min-width : 600px)
 {
     #index-banner
