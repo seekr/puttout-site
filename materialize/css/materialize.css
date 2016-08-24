@@ -3237,7 +3237,6 @@ a
     -webkit-tap-highlight-color: transparent;
 }
 
-
 .valign-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10429,6 +10428,7 @@ a.waves-effect .waves-ripple
     border-radius: 0;
     will-change: bottom, opacity;
 }
+
 
 .collapsible
 {

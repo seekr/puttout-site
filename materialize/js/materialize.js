@@ -724,6 +724,14 @@ if ($) {
         $modal.closeModal(options);
       });
 
+      $modal.find(".modal-close").on('click.close', function(e) {
+        $modal.closeModal(options);
+      });
+
+      $modal.find(".subscribe").on('click.close', function(e) {
+        $modal.closeModal(options);
+      });
+
       $overlay.css({ display : "block", opacity : 0 });
 
       $modal.css({
