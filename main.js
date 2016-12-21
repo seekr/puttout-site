@@ -1,12 +1,12 @@
-(function($){
-  $(function(){
+(function($) {
+    $(function() {
 
-        $(document).ready(function(){
+        $(document).ready(function() {
 
 
-           // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+            // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
             $('.modal-trigger').leanModal();
-            
+
             $('#nav').localScroll(800);
             //.parallax(xPosition, speedFactor, outerHeight) options:
             //xPosition - Horizontal position of the element
@@ -18,5 +18,5 @@
             $('#render').parallax("25%", 0.15);
         })
 
-  }); // end of document ready
+    }); // end of document ready
 })(jQuery); // end of jQuery name space
